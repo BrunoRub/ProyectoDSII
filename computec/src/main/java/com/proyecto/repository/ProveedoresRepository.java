@@ -1,5 +1,7 @@
 package com.proyecto.repository;
 
-public interface ProveedoresRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ProveedoresRepository extends JpaRepository<ProveedoresRepository, Integer>{
 
 }
