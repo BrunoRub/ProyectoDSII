@@ -15,7 +15,6 @@ import com.proyecto.entity.Usuarios;
 import com.proyecto.service.UsuariosService;
 
 @RestController
-@CrossOrigin(origins = "*", methods = {RequestMethod.GET,RequestMethod.POST,RequestMethod.DELETE,RequestMethod.PUT})
 @RequestMapping("usuario")
 public class UsuariosController {
 

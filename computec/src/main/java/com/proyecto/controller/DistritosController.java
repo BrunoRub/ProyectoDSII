@@ -13,8 +13,6 @@ import com.proyecto.entity.Distritos;
 import com.proyecto.service.DistritosService;
 
 @Controller
-@CrossOrigin(origins = "*", methods = {RequestMethod.GET,RequestMethod.POST,
-		RequestMethod.DELETE,RequestMethod.PUT})
 @RequestMapping("distritos")
 public class DistritosController {
 
