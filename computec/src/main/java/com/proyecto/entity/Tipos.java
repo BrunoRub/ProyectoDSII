@@ -23,3 +23,4 @@ public class Tipos {
 	@Column(name = "des_tipo", nullable = false, length = 45)
 	private String des_tipo;
 }
+

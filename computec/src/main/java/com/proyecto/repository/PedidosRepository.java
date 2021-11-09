@@ -1,5 +1,9 @@
 package com.proyecto.repository;
 
-public interface PedidosRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.proyecto.entity.Pedidos;
+
+public interface PedidosRepository extends JpaRepository<Pedidos, Integer> {
 
 }
